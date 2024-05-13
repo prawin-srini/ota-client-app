@@ -20,7 +20,7 @@ PreRequisites
 
 iMXRT1060 OTA Client Application for the Hawkbit Server
 Steps to run the client.
-1. Configure the project using the settings found in porject_config.xml
+1. Configure the project using the settings found in prject_config.xml and the memory configuration for the HW is exported to mem.xml
 2. Use the mcuboot-opensource as the Secondary Bootloader in Flash at address 0x60000000
 3. Sign the application and candidate image using imgtool sign --key sign-rsa2048-priv.pem
 	      --align 4
