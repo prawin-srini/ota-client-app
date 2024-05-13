@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <includepath workspace_path="true">/${ProjName}/source</includepath>
+      <includepath workspace_path="true">/${ProjName}/freertos/corejson/source/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/component/phy</includepath>
+      <includepath workspace_path="true">/${ProjName}/drivers</includepath>
+      <includepath workspace_path="true">/${ProjName}/mbedtls/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/mbedtls/library</includepath>
+      <includepath workspace_path="true">/${ProjName}/mbedtls/port/ksdk</includepath>
+      <includepath workspace_path="true">/${ProjName}/flash/mflash/mimxrt1062</includepath>
+      <includepath workspace_path="true">/${ProjName}/component/silicon_id</includepath>
+      <includepath workspace_path="true">/${ProjName}/lwip/port</includepath>
+      <includepath workspace_path="true">/${ProjName}/lwip/src</includepath>
+      <includepath workspace_path="true">/${ProjName}/lwip/src/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/freertos/corehttp/source/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/freertos/corehttp/source/interface</includepath>
+      <includepath workspace_path="true">/${ProjName}/utilities</includepath>
+      <includepath workspace_path="true">/${ProjName}/device</includepath>
+      <includepath workspace_path="true">/${ProjName}/component/uart</includepath>
+      <includepath workspace_path="true">/${ProjName}/component/serial_manager</includepath>
+      <includepath workspace_path="true">/${ProjName}/component/lists</includepath>
+      <includepath workspace_path="true">/${ProjName}/xip</includepath>
+      <includepath workspace_path="true">/${ProjName}/flash/mflash</includepath>
+      <includepath workspace_path="true">/${ProjName}/component/gpio</includepath>
+      <includepath workspace_path="true">/${ProjName}/llhttp/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/freertos/freertos-kernel/include</includepath>
+      <includepath workspace_path="true">/${ProjName}/freertos/freertos-kernel/portable/GCC/ARM_CM4F</includepath>
+      <includepath workspace_path="true">/${ProjName}/CMSIS</includepath>
+      <includepath workspace_path="true">/${ProjName}/board</includepath>
+      <includepath workspace_path="true">/${ProjName}/source/config</includepath>
+      <includepath workspace_path="true">/${ProjName}/bootutil_port</includepath>
+      <includepath workspace_path="true">/${ProjName}/bootutil_port/mcuboot_config</includepath>
+      <includepath workspace_path="true">/${ProjName}/bootutil_port/sysflash</includepath>
+      <includepath workspace_path="true">/${ProjName}/bootutil_port/board_specific</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.com.crt.mcu.assembly" name="Additional Assembly Source Files">
+      <includepath workspace_path="true">/${ProjName}/source</includepath>
+      <includepath workspace_path="true">/${ProjName}/source/config</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.assembly" name="Assembly Source File">
+      <includepath workspace_path="true">/${ProjName}/source</includepath>
+      <includepath workspace_path="true">/${ProjName}/source/config</includepath>
+    </language>
+    <language name="Object File"/>
+  </section>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+    <language id="org.eclipse.cdt.core.gcc" name="C Source File">
+      <macro>
+        <name>CPU_MIMXRT1062DVL6A</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>CPU_MIMXRT1062DVL6A_cm7</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>_POSIX_SOURCE</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>XIP_BOOT_HEADER_DCD_ENABLE</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>SKIP_SYSCLK_INIT</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>DATA_SECTION_IS_CACHEABLE</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>SDK_DEBUGCONSOLE</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>XIP_EXTERNAL_FLASH</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>XIP_BOOT_HEADER_ENABLE</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>FSL_FEATURE_PHYKSZ8081_USE_RMII50M_MODE</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>FSL_SDK_ENABLE_DRIVER_CACHE_CONTROL</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>PRINTF_ADVANCED_ENABLE</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>MCUBOOT_APPLICATION</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>USE_RTOS</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>LWIP_DNS</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>LWIP_DHCP</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>MBEDTLS_CONFIG_FILE</name>
+        <value>'"ksdk_mbedtls_config.h"'</value>
+      </macro>
+      <macro>
+        <name>ENET_RXBUFF_NUM</name>
+        <value>14</value>
+      </macro>
+      <macro>
+        <name>SHELL_BUFFER_SIZE</name>
+        <value>128U</value>
+      </macro>
+      <macro>
+        <name>MCUXPRESSO_SDK</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>MFLASH_FILE_BASEADDR</name>
+        <value>7340032</value>
+      </macro>
+      <macro>
+        <name>LWIP_DISABLE_PBUF_POOL_SIZE_SANITY_CHECKS</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>CHECKSUM_GEN_ICMP6</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>CHECKSUM_CHECK_ICMP6</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>DEBUG_CONSOLE_RX_ENABLE</name>
+        <value>0</value>
+      </macro>
+      <macro>
+        <name>SERIAL_PORT_TYPE_UART</name>
+        <value>1</value>
+      </macro>
+      <macro>
+        <name>SDK_OS_FREE_RTOS</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>CR_INTEGER_PRINTF</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>__MCUXPRESSO</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>__USE_CMSIS</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>DEBUG</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>__NEWLIB__</name>
+        <value/>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.com.crt.mcu.assembly" name="Additional Assembly Source Files"/>
+    <language id="org.eclipse.cdt.core.assembly" name="Assembly Source File"/>
+    <language name="Object File"/>
+  </section>
+</cdtprojectproperties>
